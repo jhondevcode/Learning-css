@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+/* afecta a todos los elementos <p> que se encuentran en ordn impar */
+p:nth-child(odd) {
+    color: blue;
+}

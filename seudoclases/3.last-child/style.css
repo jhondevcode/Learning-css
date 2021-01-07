@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+p:first-child {
+    font-size: 25px;
+    color: rgb(0, 195, 255);
+}
+
+p:nth-child(3) {
+    font-size: 20px;
+    font-style: oblique;
+    color: seagreen;
+}
+
+p:last-child {
+    font-size: 35px;
+    color: orange;
+}
+
+p:only-child {
+    font-size: 40px;
+    color: darkcyan;
+}

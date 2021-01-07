@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* esta pseudo clase funciona solamente cuando existe un unico elemento hijo */
+p:only-child {
+    font-size: 40px;
+    color: darkorange;
+}

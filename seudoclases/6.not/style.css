@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+/* afecta a todos los <p> que no tengan la clase "mitexto3" */
+p:not(.mitexto3) {
+    color: blue;
+}

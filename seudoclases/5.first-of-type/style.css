@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* afectará al primer elemento de una lista de elementos del mismo tipo */
+p:first-of-type {
+    font-size: 25px;
+    color: darkorange;
+}
