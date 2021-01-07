@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+p {
+    color: rgba();
+}
+
+article > p {
+    color: dodgerblue;
+}
+
+section > p {
+    color: mediumseagreen;
+}

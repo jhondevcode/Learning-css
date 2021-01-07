@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Selectores por clase */
+
+.links {
+    font-size: 15px;
+    color: blue;
+    text-align: center;
+}
+
+.buttons {
+    font-size: 30px;
+    color: darkcyan;
+}
+
+.icons {
+    color: green;
+    background-color: orange;
+}
+
+/* Especifico para los elementos <p> que tengan por clase class="links" */
+nav.links {
+    text-align: center;
+    color: orange;
+    font-size: 15px;
+}

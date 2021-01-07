@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+p {
+    background-color: dodgerblue;
+}
+
+#sect {
+    background-color: tomato;
+}
+
+.links {
+    background-color: violet;
+}
+
+nav.links {
+    background-color: mediumseagreen;
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* estilo para un elemento especifico */
+span {
+    font-size: 20px;
+}
+
+/* El mismo estilo para diferentes elementos */
+p, span {
+    font-size: 20px;
+}
+
+/* estilizado de elementos que se encuentran dentro de otro elemento */
+main p {
+    font-size: 20px
+}

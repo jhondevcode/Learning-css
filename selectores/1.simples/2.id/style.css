@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* Selectores css por id */
+
+#cabecera {
+    font-size: 50px;
+}
+
+#pie-pagina {
+    font-size: 30px;
+}
+
+#barra {
+    font-size: 20px;
+    color: aqua;
+}

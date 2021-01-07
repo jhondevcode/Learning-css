@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+p {
+    color: #ff2531;
+}
+
+article > p {
+    color: #ff6347;
+}
+
+section > p {
+    color: #aaffcc;
+}

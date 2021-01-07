@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+p {
+    color: hsl(9, 80%, 64%);
+}
+
+article > p {
+    color: hsl(8, 20%, 95%);
+}
+
+section > p {
+    color: hsl(5, 15%, 50%);
+}

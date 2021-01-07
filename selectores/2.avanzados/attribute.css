@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* Selector para los elementos que tengan el atributo "name" */
+p[name] {
+    font-size: 20px;
+    color: tomato;
+}
+
+/* Selector para un atributo con su valor */
+li[name="lista-enlaces"] {
+    font-size: 15px;
+    color: darkcyan
+}
+
+article[name="animes"] {
+    font-size: 12px;
+    color: lightgreen;
+}
+
+/* todos los <p> que contengan la palabra "mi" en su interior */
+p[name~="mi"] {
+    font-size: 20px;
+}
+
+/* todos los <p> de los cuales el valor de su atributo comienze en "mi" */
+p[name^="mi"] {
+    font-size: 20px;
+}
+
+/* todos los <p> de los cuales el valor de su atributo termine en "mi" */
+p[name$="mi"] {
+    font-size: 20px;
+}
+
+/* todos los <p> de los cuales el valor de su atributo contiene "mi" en cualquier parte */
+p[name*="mi"] {
+    font-size: 20px;
+}
