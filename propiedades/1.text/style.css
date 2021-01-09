@@ -1,0 +1,114 @@
+/* Todas aquellas palabras que tengan por delante el caracter '@' se llaman reglas en css */
+
+/* regla charset, usada para indicar el tipo de encodificacion */
+@charset "UTF-8";
+
+@font-face {
+    font-family: "MiNuevaLetra";
+    src: url("/propiedades/fonts/PottaOne-Regular.ttf");
+}
+
+#font-example {
+    font-family: MiNuevaLetra;
+}
+
+#text-paragraphs {
+    /* uso dela propiedad "font-family" con la cual se cambia el tipo de letra */
+    font-family: sans-serif;
+
+    /* uso de la propiedad "font-size" con la cual se cambia el tamaño de la letra
+       unidades de medida disponible:
+            Unidades de medida absolutas
+                cm: en centimetros
+                in: en pulgadas
+                pc: en picas, una pica equivale a 12 puntos es decir 4.23 milimetros
+                mm: en milimetros
+                pt: en puntos, un punto equivale a 0.35 milimetros
+            Unidades de medida relativas
+                px: en pixeles, relativo a la pantalla del dispositivo.
+                ex: relativa respecto de la altura de la letra
+                em: equivalente a 16 pixeles.
+                %: realtivo al tamaño del contenedor
+    */
+    font-size: 17px;
+
+    /* esta propiedad determinara si el texto estara en negrita o no, los valores con los que se
+       dispone son "normal" y "bold" pero podemos coilocar los siguientes valores para indicar el grosor
+       de la letra {100, 200, 300, 400, 500, 600, 700, 800, 900} (solo se aplica a algunos tipos de letra)
+    */
+    font-weight: 700;
+
+    /* esta propiedad determina el estilo de la letra, Los valores que se dispone son {normal, italic, oblique} */
+    font-style: italic;
+
+    /* esta propiedad nos permite declarar multiples valores al mismo tiempo. Los valores deben de declararse
+       separados por un espacio y en un orden preciso. El estilo y grosor se declaran primero y el tipo de letra al final
+    */
+    font: italic bold 20px "Consolas";
+    /*      |      |    |       |
+            fs     fw   fs      ff   */
+}
+
+#text-example {
+    /* esta propiedad alinea el texto dentro de un elemento, los valores disponibles son {left, right, center, justify} */
+    text-align: center;
+}
+
+#lorem {
+    /* esta propiedad alinea la ultima linea de un parrafo, los valores disponibles son {left, right, center, justify} */
+    text-align-last: right;
+}
+
+#ident {
+    /* esta propiedad define el tamaño de la sangria de un parrafo */
+    text-indent: 10%;
+
+    /* propiedades explicadas anteriormante */
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Times New Roman";
+    font-size: 18px;
+
+    /* esta propiedad define el espacio entre "letras" */
+    letter-spacing: 3px;
+
+    /* esta propiedad define el ancho del espacio entra "palabras" */
+    word-spacing: 5px;
+
+    /* esta propiedad define el espacio entre lineas */
+    line-height: 30px;
+
+    /* esta propiedad alinea elementos verticalmente, usado frecuentemente para alinear texto con imagenes */
+    vertical-align: baseline;
+}
+
+#text-title {
+    /*font-family: Verdana, sans-serif;
+    font-size: 26px;*/
+    font: bold 26px Verdana, sans-serif;
+    text-decoration: underline overline;
+}
+
+#underline {
+    /* esta propiedad coloca una raya por debajo del texto (subrayado) */
+    text-decoration: underline;
+}
+
+#overline {
+    /* esta propiedad coloca una raya por encima del texto */
+    text-decoration: overline;
+}
+
+#line-t {
+    /* esta propiedad tacha el texto, es decir que coloca la raya en el medio del texto */
+    text-decoration: line-through;
+}
+
+#none {
+    /* esta propiedad indica que el texto no tendra ninguna decoracion */
+    text-decoration: none;
+}
+
+h1 {
+    text-decoration: underline;
+}
