@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* cambia el color del cuerpo */
+body {
+    background-color: rgb(65, 65, 65);
+}
+
+article {
+    text-align: center;
+}
+
+#paragraphs {
+    background-color: rgb(126, 126, 126);
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+}
+
+/* cambia el color del titulo */
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* -----cambian los colores de los parrafos----- */
+#rgb {
+    color: rgb(255, 156, 57);
+}
+
+#rgba {
+    color: rgba(11, 166, 255, 0.637);
+}
+
+#hsl {
+    color: hsl(184, 70%, 58%);
+    color: hsl(hue, saturation, lightness);
+}
+
+#hsla {
+    color: hsla(83, 100%, 50%, 0.836);
+}
+
+#vscode {
+    width: 40%;
+    align-self: center;
+    padding-left: 30%;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+}
