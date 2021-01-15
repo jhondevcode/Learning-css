@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#example01 {
+    /* margin: top letf bottom right */
+    /*margin: 50px 10px 50px 5px;*/
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+#example02 {
+    margin: 50px 10px 50px 5px;
+}
+
+#example03 {
+    margin: 50px 10px 50px 5px;
+}
+
+#example04 {
+    margin: 50px 10px 50px 5px;
+}
