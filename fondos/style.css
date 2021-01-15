@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* la propiedad "background-color" indica el color del contenedor */
+/* la propiedad "background-image" indica que el fondo va a ser una imagen */
+
+#the-body {
+    background-color: darkcyan;
+}
+
+body {
+    background-image: url("/fondos/img/eart-end.jpg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: repeat;
+    background-origin: content-box;
+    background-clip: border-box;
+}
+
+footer {
+    background-color: #000000;
+}
+
+article > p {
+    text-align: center;
+}
+
+small {
+    color: #ffffff;
+}
